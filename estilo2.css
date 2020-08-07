@@ -1,0 +1,199 @@
+html, body {
+    margin: 0;
+}
+header {
+    background-color: white;
+    color: teal;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo {
+  width: 150px;
+  position: fixed;
+  margin-top: 0.5%;
+  margin-left: 5%;
+  max-width: 100%;
+}
+#menu {
+    float: right; 
+    padding-left: 10px;
+    margin-top: 0px;
+    max-width: 100%;
+}
+li {
+    float: left;
+    list-style: none;
+    padding: 21;
+     
+}
+li:hover {
+    background-color: rgb(186, 252, 243);
+}
+#imagemfundo {
+    background: url(pexels-photo-63340.jpeg);
+    height: 100%;
+    text-align: center;
+}
+
+#titulo {
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+    font-size: 50px;
+}
+#line {
+    color: white;
+    text-align: center;
+}
+#subtitulo { 
+    color: white;
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+#acao {
+    
+    color: white;
+    border: white solid;
+    padding:  10px 10px 10px 10px ;
+   
+}
+#image {
+   
+    padding-top: 20;
+}
+#video {
+    
+    margin-top: 0px;
+}
+#noticia {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 0px;
+}
+#text {
+    float: right;
+    padding-right: 150;
+    padding-top: 25; 
+    
+
+}
+#text1 {
+    color: rgb(255, 187, 61);
+}  
+#epa {
+   
+    background-color: rgb(225, 226, 226);
+    float: left;
+     width: 100%;
+}
+#text3 {
+    font-size: 30px;
+   text-align: center;
+}
+.text4 {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+#text5 {
+   margin-top: 45;
+}
+#text6 {
+    padding-top:  100;
+}
+#text7 {
+    font-size: 15px;
+}
+#prevencao {
+    text-align: center;
+    font-size: 30px;
+    font-style: inherit;
+}
+#text8 {
+    font-size: 20px;
+    padding-left: 30px;
+}
+.box {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+    
+}
+#in {
+    padding-top: 70;
+}
+#prev {
+    background-color: rgb(252, 249, 225);
+    float: left;
+    width: 100%;
+}
+#water {
+    padding-top: 80px;
+    padding-left: 150;
+}
+#ods {
+    font-size: 30px;
+   text-align: center;
+   
+}
+#ods1 {
+   
+    float: left;
+    width: 100%;
+}
+#me {
+    font-size: 30px;
+    text-align: center;
+    float: left;
+}
+#byme {
+   
+    background-color:rgb(225, 226, 226);
+    float: left;
+    width: 100%;
+}
+.eu {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+#ft {
+    padding-left: 00;
+    padding-top: 0.5;
+}
+.coluna5 {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 10%;
+}
+footer {
+    background-color: teal;
+    float: left;
+    color: white;
+    
+width: 100%;
+
+}
+@media all and ( max-width:768px ) {
+    #menu {
+        visibility: hidden;
+    }
+    .box, .text4, .eu ,.coluna5 {
+        display: block;
+        width: 80%;
+        padding: 0px;
+        margin: 10px auto;
+        float: none;
+    }
+    #logo {
+        margin-left: 0px;
+        transform: translateX(60%);
+    }
+}
